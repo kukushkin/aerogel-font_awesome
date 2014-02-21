@@ -1,11 +1,10 @@
 # aerogel-font_awesome
 
-**NOTE**: At the moment the module depends on the fork
-[https://github.com/coderanger/font-awesome-sass](https://github.com/coderanger/font-awesome-sass)
-,
-which provides support for non-Rails applications.
 
-A module which makes font-awesome-sass available to aerogel applications.
+A module which makes [Font Awesome](https://github.com/FortAwesome/Font-Awesome) available to aerogel applications.
+
+The module is based on
+[font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass).
 
 ## Installation
 
@@ -23,5 +22,5 @@ run Aerogel::Application.load
 
 In your application's manifest files:
 ```
-//= require font_awesome
+//= require font-awesome
 ```
